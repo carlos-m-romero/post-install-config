@@ -220,9 +220,10 @@ Password Reset
 "Internal Notes" can be written down for personal use, but not necessary.
 After that, click "Add Topic".
 
+![28](https://github.com/carlos-m-romero/post-install-config/assets/148396073/9e17a313-b573-41de-b79f-b3913cb76d9d)
 ![27](https://github.com/carlos-m-romero/post-install-config/assets/148396073/3fa5e689-22ed-495d-a289-88d8ba7bfb7a)
 
-![28](https://github.com/carlos-m-romero/post-install-config/assets/148396073/9e17a313-b573-41de-b79f-b3913cb76d9d)
+
 
 
 <hr>
