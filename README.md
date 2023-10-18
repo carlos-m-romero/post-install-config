@@ -7,9 +7,6 @@ Hey there! This is a guide on how to configure osTicket, an open-source help des
 
 <b>Note:</b> To follow along with this guide, make sure you have completed the prerequisites and installation steps described in my previous demonstration, "Prerequisites and Installation".  The video will guide you visually through the steps involved and then further on there are some notes and screenshots provided to provide highlights of some or all of the material.
 
-<h2>Video Demonstration</h2>
-
-- ### [How To Configure osTicket, post-installation](https://drive.google.com/file/d/1dFvXN6I8EnOFGr2uQspMP-gzzkNG1OoA/view?usp=sharing)
 
 <h2>Environments and Technologies Used</h2>
 
