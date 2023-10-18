@@ -36,20 +36,21 @@ Credentials and configurations that will be used in this demonstration can be fo
 
 <hr>
 <h3>&#9313; Admin Panel - Roles, Departments, Teams, & Agents</h3>
-On the web browser (Microsoft Edge), go to the Help Desk Login Page and sign into your osTicket Help Desk credentials (this example uses username ostuser / ostuser@email.com).
+On the web browser (Microsoft Edge), go to the Help Desk Login Page and sign in to your osTicket Help Desk credentials (this example uses username ostuser / ostuser@email.com).
 Help Desk Login Page -- http://localhost/osTicket/scp/login.php
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/73954501-a231-4363-9236-ffadcfb671b3)
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/b2ff7ff8-8b74-47da-b81f-1dc0797268e4)
+![4](https://github.com/carlos-m-romero/post-install-config/assets/148396073/43e5812c-1c98-4990-bf37-f12977d85a4f)
+![5](https://github.com/carlos-m-romero/post-install-config/assets/148396073/63f2b604-6a24-43b8-afbb-f1e743392c03)
 
-Currently at the Agent Panel, click on "Admin Panel" at the top-right of the page.
+Currently, at the Agent Panel, click on "Admin Panel" at the top-right of the page.
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/49ba8841-ef98-4276-98a2-a0422e10cfb0)
+![6](https://github.com/carlos-m-romero/post-install-config/assets/148396073/71d7a032-9a07-499f-b671-0452f09884c5)
 
 
 Click on the "Agents" tab > "Roles" > "Add New Role".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/e6846ce0-afec-4d48-8b2d-663a08a8657b)
+![7](https://github.com/carlos-m-romero/post-install-config/assets/148396073/404a968d-4552-40a1-bce0-9cf3bacd62cf)
+
 
 
 "Roles are the permissions granted to Agents per Department that they have access to."
@@ -58,46 +59,52 @@ In the Definition tab, type any Role name of your choice (this example uses Supr
 This role will be given all permissions.
 Then, click on the Permissions tab.
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/822bd216-c592-424d-85c5-709d56cc0313)
+
+![8](https://github.com/carlos-m-romero/post-install-config/assets/148396073/487fe89f-bbf1-4576-8981-4940148e9e14)
 
 
 In the Permissions tab, under the Tickets category, checkmark ALL boxes.
 Go through both Tasks and Knowledgebase categories and checkmark ALL boxes as well.
 Once done, click "Add Role".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/e894b3a2-4a3a-4fbb-a3cb-572ddb0cd3f2)
+![9](https://github.com/carlos-m-romero/post-install-config/assets/148396073/08933841-298d-4866-b013-822ddec03932)
+
 
 Now we've created a Supreme Admin role with all permissions granted. Next, we'll create a Department.
 
-Currently in the Agents tab, click on the "Departments" category.
+Currently, in the Agents tab, click on the "Departments" category.
 Click "Add New Department".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/f577a57b-0c17-44c3-9fb7-c632d84674cc)
+![10](https://github.com/carlos-m-romero/post-install-config/assets/148396073/45bf89a6-b089-4ca4-a511-f56c30944c26)
+
 
 Create a Department name of your choice (this example uses System Administrators).
 Skip everything else for now and click "Create Dept".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/cdceb898-1360-4d89-b4fa-b15a2d069a7e)
+![11](https://github.com/carlos-m-romero/post-install-config/assets/148396073/bc7e6ce9-674a-469c-bc3a-2524de22d4ec)
 
-Next, we'll move onto creating a Team. <br>
+
+Next, we'll move on to creating a Team. <br>
 "Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter."
 
-Currently in the Agents tab, click on the "Teams" category.
+Currently, in the Agents tab, click on the "Teams" category.
 
 Click "Add New Team".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/8c47d00b-25bb-4bb0-b0a2-4a229f91bb2a)
+![12](https://github.com/carlos-m-romero/post-install-config/assets/148396073/0ae78b49-1a51-4cf1-8bbd-6d6a6bf4302f)
+
 
 
 Create a Team name of your choice (this example uses Level II Support).
 Click "Create Team".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/c9a6881f-c53b-4db1-82fd-4928f126b4c2)
+
+![13](https://github.com/carlos-m-romero/post-install-config/assets/148396073/75edc430-7e7d-4660-b078-6cb45bd6984b)
 
 
-Currently in the Agents tab, click "Agents" category.
+Currently, in the Agents tab, click "Agents" category.
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/caac7681-50de-4377-944a-544192184204)
+![14](https://github.com/carlos-m-romero/post-install-config/assets/148396073/aafc4350-f590-4e56-8a62-e098bfb8dd60)
 
 
 Create the required credentials for this user that are in bold:
@@ -111,7 +118,8 @@ Create a password for this user.
 Uncheck "Require password change at next login".
 Click "Set".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/08747335-6630-4bc8-b279-085ccc9f876a)
+
+![15](https://github.com/carlos-m-romero/post-install-config/assets/148396073/e3895776-a8f8-4245-bcd4-514b064c2567)
 
 
 Click on the "Access" tab:
@@ -120,41 +128,44 @@ Assign this user the Role that we created (this example uses Supreme Admin).
 Under Extended Access, assign this user the "Support" department with the "Supreme Admin" role.
 Click "Save Changes".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/7ab53742-2268-44ec-a655-2426d8fc1d84)
+
+![16](https://github.com/carlos-m-romero/post-install-config/assets/148396073/00e1b3a2-09ff-4049-a9f3-ae37d80ae4ca)
 
 
 Click on the "Teams" tab:
 Assign this user the Team that we created (this example uses Level II Support).
 Once done, click "Create".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/c8a715ae-2f97-4667-aa56-c8890ff14069)
+
+![17](https://github.com/carlos-m-romero/post-install-config/assets/148396073/ce870cc9-7fa6-4bc2-b062-3e7ef92531f0)
 
 
 Create another Agent following the steps, however assign it to a different Role and Department.</br>
 This example creates Agent "John Doe" | Department: "Level I Support" | Role: "View only | Extended Access: Support".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/7575d375-1878-45e1-b27b-5251d54daf5a)
+
+![18](https://github.com/carlos-m-romero/post-install-config/assets/148396073/221d06e2-abfc-4e20-8cc4-f5a61cc639da)
 
 
 <hr>
 <h3>&#9314; Agent Panel - Creating Users</h3>
 Click on "Agent Panel" on the top-right of the page.
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/b0d3ad56-2a52-451b-b1a8-8f5a2661a97c)
+![19](https://github.com/carlos-m-romero/post-install-config/assets/148396073/faf82e96-f908-4bf6-8bff-9322edd95cd8)
+
 
 Click on the "Users" tab.
 Click on "Add User".
 Create an Email Address and Full Name for this user (this example uses karen@osticket.com / Karen Karen).
 Click "Add User".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/a3bc0447-ac41-4a32-b211-21d00dc61324)
-
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/2560cbf6-8863-4798-99c4-65a865c2f94d)
+![20](https://github.com/carlos-m-romero/post-install-config/assets/148396073/a0c19bd1-be61-414c-85f5-70164ab6cbb2)
+![21](https://github.com/carlos-m-romero/post-install-config/assets/148396073/7a151a8d-429b-4aab-a455-e04561eb4e5b)
 
 
 Create another user of your choice (this example uses ken@osticket.com / Ken Ken)
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/d0ee8458-14f2-49d3-9a64-f4f25ca82218)
+![22](https://github.com/carlos-m-romero/post-install-config/assets/148396073/b8cf4052-965c-490a-8045-0c70007d0894)
 
 
 <hr>
@@ -165,7 +176,8 @@ Return to the "Admin Panel".
 Navigate to "Manage" tab > "SLA".
 Click "Add New SLA Plan".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/c7e65cb3-0bac-486b-bc9e-54a1055609fa)
+
+![23](https://github.com/carlos-m-romero/post-install-config/assets/148396073/99776d59-058a-4a55-ad69-0287554e07fe)
 
 
 Create the following plans:
@@ -183,9 +195,10 @@ Grace Period: 8 hours
 Schedule: Monday - Friday 8am - 5pm with U.S. Holidays
 Click "Add Plan" for each.
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/b83a83d6-2330-4e83-99ae-57a39b487253)
+![24](https://github.com/carlos-m-romero/post-install-config/assets/148396073/e66e36c8-648a-4feb-9e62-f1055b907309)
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/64008205-55d2-4609-8249-04f937458f17)
+![25](https://github.com/carlos-m-romero/post-install-config/assets/148396073/b8911971-8159-47bf-b5cc-5fc25f49696b)
+
 
 
 <hr>
@@ -195,7 +208,8 @@ Help Topics will help streamline your end-user’s help desk experience to ensur
 Currently in the Admin Panel, navigate to "Manage" tab > "Help Topics".
 Click "Add New Help Topic".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/a5cbf5d4-735b-48e0-b5ca-9d82b99925b0)
+
+![26](https://github.com/carlos-m-romero/post-install-config/assets/148396073/6b638f60-6256-47a0-9039-80efa2416a1e)
 
 
 Create Help Topics with the following names:
@@ -206,9 +220,9 @@ Password Reset
 "Internal Notes" can be written down for personal use, but not necessary.
 After that, click "Add Topic".
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/59aaf9fe-4492-433b-b1f7-fb012213f561)
+![27](https://github.com/carlos-m-romero/post-install-config/assets/148396073/3fa5e689-22ed-495d-a289-88d8ba7bfb7a)
 
-![image](https://github.com/JasonDelahoussaye/post-install-config/assets/106440235/7cdfb439-7df5-4d16-9e88-5ab6a5d5d23a)
+![28](https://github.com/carlos-m-romero/post-install-config/assets/148396073/9e17a313-b573-41de-b79f-b3913cb76d9d)
 
 
 <hr>
